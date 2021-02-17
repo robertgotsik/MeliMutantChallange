@@ -89,8 +89,9 @@ namespace MeliMutantChallange.Models
         {
             List<string> reorder = new List<string>();
             int letterPosition = 0;
+            int arrayLenght = dna.Length;
 
-            while (6 > reorder.Count)
+            while (arrayLenght > reorder.Count)
             {
                 string newString = "";
 
